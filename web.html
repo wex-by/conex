@@ -1,0 +1,174 @@
+<html lang="fa" dir="rtl">
+<head>
+				<script>
+								console.log("conex team");
+				</script>
+	<style>
+		body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+  text-shadow: 2px 2px red;
+}
+.card {
+    padding: 30px 0 55px;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 20px 20px 42px red, -20px -20px 42px red;
+    width: 25%;
+}
+.card .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    z-index: 1;
+    position: relative;
+    border-radius: 20%;
+}
+.card .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: crimson;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.card:hover .picture::before {
+    height: 100%;
+}
+.card .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.card .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.card:hover .picture img {
+    box-shadow: 0 0 0 14px whtie;
+    transform: scale(0.7);
+}
+.card .title {
+    display: block;
+    font-size: 15px;
+    color: red;
+    text-transform: capitalize;
+    margin: 5px 37px 0;
+}
+.card .main-content {
+    margin-bottom: -19px;
+}
+.card .main-content .name {
+    padding: 0;
+    margin: 8px;
+    text-transform: uppercase;
+}
+.card .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: crimson;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.card:hover .social {
+    bottom: 0;
+}
+.card .social li {
+    display: inline-block;
+}
+.card .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.card .social li a:hover {
+    color: #3e3b44;
+    background-color: #f7f5ec;
+    transition: 0.5s;
+}
+.skills {
+    text-align: left;
+    padding: 15px;
+}
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills ul li {
+    border: 1px solid #114e58;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+.skills ul li:hover {
+    background: #114e58;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+		</style>
+<title>conex team</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<meta charset="UTF_8">
+<body background="https://i.pinimg.com/originals/a4/6b/ad/a46bad863c5476d631c2d218289d5a4e.gif">
+    <div class="card">
+        <div class="picture">
+            <img class="img-fluid" src="https://s6.uupload.ir/files/img_20220328_143853_750_zk55.jpg">
+        </div>
+        <div class="main-content">
+            <h3 class="name">CONEX TEAM</h3>
+            <span><i href="http://game-conex.gigfa.com/homeliser.html" class="fa fa-google"></i> conex</span>
+            <h4 class="title">صرفا جهت اموزش</h4>
+        </div>
+        <ul class="social">
+            <li><a href="http://game-conex.gigfa.com/homeliser.html" class="fa fa-qq"></a></li>
+            <li><a href="https://t.me/conex_team" class="fa fa-telegram"></a></li>
+            <li><a href="https://rubika.ir/conex_team" class="fa fa-comment"></a></li>
+            <li><a href="https://pranx.com/hacker/" class="fa fa-terminal"></a></li>
+        </ul>
+        <div class="skills">
+            <h6>مهارت ها</h6>
+            <ul>
+                <li>python</li>
+                <li>GO</li>
+                <li>JavaScript</li>
+                <li>java</li>
+                <li>brainfuck</li>
+                <li>html,css</li>
+                <li>C,C++</li>
+                <li>xml</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
